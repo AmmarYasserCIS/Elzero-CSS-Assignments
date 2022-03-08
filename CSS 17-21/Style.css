@@ -1,0 +1,63 @@
+.ass-1 div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 40rem;
+  font-size: 4rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  background-color: #eee;
+  text-shadow: 2px 2px 0 #f34336, 4px 4px 0 #2c92ec, 6px 6px 0 #9b2cb2;
+}
+
+.ass-2 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  background-color: #eee;
+  padding: 2rem;
+  text-align: center;
+}
+
+.ass-2 .one {
+  text-transform: uppercase;
+}
+
+.ass-2 .two {
+  text-transform: capitalize;
+}
+
+.ass-2 .three {
+  text-transform: none;
+}
+
+.ass-3 div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 400px;
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  background-color: #eee;
+}
+
+.ass-3 .three {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ass-3 .three:hover {
+  overflow: visible;
+}
+
+.ass-4 div {
+  text-align: center;
+}
+
+.ass-4 a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.2rem;
+  padding: 1rem 2rem;
+  border-bottom: 10px solid #00514a;
+  display: inline-block;
+  background-color: #009788;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
