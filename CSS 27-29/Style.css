@@ -1,0 +1,77 @@
+body {
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+}
+
+.ass-1 .parent {
+  width: 1000px;
+  background-color: #eee;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ass-1 .clear {
+  clear: both;
+}
+
+.ass-1 .parent div {
+  background-color: gainsboro;
+  text-align: center;
+}
+
+.ass-1 .full {
+  float: left;
+  width: calc(100% - 30px);
+  padding: 15px 0px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 7.5px;
+  margin-left: 15px;
+}
+
+.ass-1 .third {
+  float: left;
+  width: calc((100% - 60px) / 3);
+  padding: 15px 0px;
+  margin-top: 7.5px;
+  margin-bottom: 7.5px;
+  margin-left: 15px;
+}
+
+.ass-1 .half {
+  float: left;
+  width: calc((100% - 45px) / 2);
+  padding: 15px 0px;
+  margin-top: 7.5px;
+  margin-bottom: 7.5px;
+  margin-left: 15px;
+}
+
+.ass-1 .quart {
+  float: left;
+  width: calc((100% - 75px) / 4);
+  padding: 15px 0px;
+  margin-top: 7.5px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.ass-2 div {
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: rgb(179 179 179);
+  color: black;
+}
+
+.ass-2 .one {
+  background-color: rgb(179 179 179 / 0.1);
+}
+
+.ass-2 .two {
+  opacity: 0.1;
+}
