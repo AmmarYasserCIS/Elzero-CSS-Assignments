@@ -1,0 +1,168 @@
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.green {
+  background: #009688;
+  z-index: 3;
+  top: 30px;
+  left: 30px;
+}
+
+.red {
+  background: #f44336;
+  z-index: 4;
+  top: 40px;
+  left: 40px;
+}
+
+.blue {
+  background: #03a9f4;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+.black {
+  background: #333333;
+  z-index: 1;
+  top: 30px;
+  left: 20px;
+}
+
+.hr1 {
+  margin-top: 200px;
+}
+
+.parent2 {
+  background-color: #eee;
+  width: 80%;
+  margin: 60px auto;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  border: 4px solid;
+  border-color: #f44336 #2196f3;
+  position: relative;
+}
+
+.parent2 span {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: #2196f3;
+  color: white;
+}
+
+.top-left {
+  top: -10px;
+  left: -15px;
+  border-right: 4px solid #f44336;
+}
+
+.bottom-left {
+  bottom: -10px;
+  left: -15px;
+  border-right: 4px solid #f44336;
+}
+
+.top-right {
+  top: -10px;
+  right: -15px;
+  border-left: 4px solid #f44336;
+}
+
+.bottom-right {
+  bottom: -10px;
+  right: -15px;
+  border-left: 4px solid #f44336;
+}
+
+ul {
+  padding-left: 0px;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px 0px;
+  background-color: #eee;
+}
+
+ul li ol li,
+ul li ul li {
+  background-color: white;
+}
+
+.html ol li {
+  list-style: decimal;
+}
+
+.css ol li {
+  list-style: upper-roman;
+}
+
+.javascript ul {
+  width: auto;
+}
+
+.javascript ul li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+table {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  font-family: "Cairo", sans-serif;
+  font-weight: 600;
+}
+
+table img {
+  width: 100px;
+  height: 100px;
+  padding-top: 5px;
+}
+
+table tr {
+  height: 85px;
+  text-align: center;
+}
+
+table td {
+  background-color: #eee;
+  border-spacing: 2px solid white;
+}
+
+table thead {
+  color: white;
+  font-weight: bold;
+}
+
+table thead tr td {
+  background-color: rgb(63, 63, 63);
+}
+
+table button {
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+table .view {
+  background-color: #03a9f4;
+}
+
+table .delete {
+  background-color: #e91e63;
+}
